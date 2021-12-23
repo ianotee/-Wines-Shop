@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Luxurious+Script&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&family=Smooch&family=Yuji+Hentaigana+Akari&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 24px;
     font-size: 14px;
     font-style: normal;
@@ -13,6 +14,7 @@ body {
     visibility: visible;
     color: #000;
     letter-spacing: 0.05em;
+
 }
 
 /* general css  */
@@ -2134,6 +2136,12 @@ figure img {
     .newsletter-bg form {
         text-align: center;
     }
+}
+
+.subtitle:hover{
+    background-color: darkred;
+    color: whitesmoke;
+
 }
 
 
